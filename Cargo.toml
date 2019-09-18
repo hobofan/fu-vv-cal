@@ -1,0 +1,17 @@
+[package]
+name = "fu-vv-cal"
+version = "0.1.0"
+authors = ["Maximilian Goisser <goisser94@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+select = "0.4.3"
+tokio = { version = "0.2.0-alpha.4" }
+hyper = { version = "0.13.0-alpha.1" }
+hyper-tls = { version = "0.4.0-alpha.1" }
+timespan = "0.1.0"
+chrono = "0.4.9"
+ics = "0.4.1"
+chrono-tz = "0.5.1"
